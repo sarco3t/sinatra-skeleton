@@ -1,0 +1,22 @@
+AllCops:
+  Include:
+    - 'app/**/*.rb'
+    - '**/Gemfile'
+    - '**/Rakefile'
+  Exclude:
+   - 'bin/*'
+   - 'vendor/bundle/**/*'
+
+Metrics/LineLength:
+  Max: 120
+Style/ClassAndModuleChildren:
+  EnforcedStyle: compact
+
+Style/Documentation:
+  Enabled: false
+
+Layout/EndAlignment:
+  AutoCorrect: true
+
+Layout/DefEndAlignment:
+  AutoCorrect: true
